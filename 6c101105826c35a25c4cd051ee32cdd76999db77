@@ -1,4 +1,22 @@
 {
   "pushCert": "certificate version 0.1\npusher 511D1BA43915749D2A80C5DBF437A6DFE72651AA 1532866715 +0530\nnonce 1532866717-F9C2C01CA7C2210558D1371A9700EB4F8F9B6FA3\n\n0000000000000000000000000000000000000000 6c101105826c35a25c4cd051ee32cdd76999db77 refs/for/cr-6.1\n-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEUR0bpDkVdJ0qgMXb9Dem3+cmUaoFAltdsJsACgkQ9Dem3+cm\nUapmJAf8CTQcrof3QBztEhIpXVyzC/dWWbPSCTmKFNK7x0ujZN+Q8zXn13EqWId/\n5KHBXj2PaHuGif2dvGs8VtO7m/EFRDv2DG8cccuTOduSH+dTtbVeyk06zeth758i\nMqHjcB+uz3SBMNen12u6pO3xv3CZ9IJ6cR+odcVKHw2Gk04BvpSYpEIJFzTAu/xq\nI/Bm/FFHk7f9LNZClX7bTxAPQIkkyM7uC/cNmnLxC+OZ6o0uZ9sf0Nn5gaN4LaRp\nmRwcqi1o46gmtz3bb+7qsp+kLkZNB/ME6Dm14A3FQ6vjKg2MqLiNb60m3F4URpjd\nAF7dzjbkxj9S03j28yk8HpOGsO2wJw\u003d\u003d\n\u003dyCsw\n-----END PGP SIGNATURE-----\n",
-  "comments": []
+  "comments": [
+    {
+      "key": {
+        "uuid": "f0be7a71_11508150",
+        "filename": "common/private/fsck_untrusted.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-07-29T12:37:33Z",
+      "side": 1,
+      "message": "It\u0027s probably enough to change this to vfat",
+      "revId": "6c101105826c35a25c4cd051ee32cdd76999db77",
+      "serverId": "4c0b52a2-b090-4331-a190-b288d812d081",
+      "unresolved": false
+    }
+  ]
 }
