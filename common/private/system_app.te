@@ -2,3 +2,6 @@ allow system_app selinuxfs:file r_file_perms;
 
 # Allow access to the HALs
 hal_client_domain(system_app, hal_lineage_livedisplay)
+
+# Allow access to the touch HAL
+hal_client_domain(system_app, hal_lineage_touch)
