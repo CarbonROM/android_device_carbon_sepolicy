@@ -2,3 +2,6 @@
 allow platform_app nfc_service:service_manager find;
 allow platform_app cache_recovery_file:dir create_dir_perms;
 allow platform_app cache_recovery_file:file create_file_perms;
+
+# Allow LiveDisplay HAL service to be found
+allow platform_app hal_lineage_livedisplay_hwservice:hwservice_manager find;
