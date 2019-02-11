@@ -1,0 +1,2 @@
+# allow adb related properties to be set
+set_prop(system_server, adbtcp_prop)
