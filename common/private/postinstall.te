@@ -1,0 +1,2 @@
+allow postinstall otapreopt_chroot:process noatsecure;
+allow postinstall self:capability sys_admin;

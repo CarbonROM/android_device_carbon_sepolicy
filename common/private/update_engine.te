@@ -1,6 +1,8 @@
 r_dir_file(update_engine, mnt_user_file)
 r_dir_file(update_engine, storage_file)
 
+allow update_engine { media_rw_data_file sdcardfs }:file r_file_perms;
+
 allow update_engine self:capability { chown fsetid };
 
 allow update_engine labeledfs:filesystem { mount unmount };
@@ -19,3 +21,5 @@ allow update_engine system_file:dir { create setattr write rmdir remove_name add
 
 allow update_engine storage_file:lnk_file read;
 allow update_engine toolbox_exec:file { execute getattr };
+
+allow update_engine postinstall:process noatsecure;
