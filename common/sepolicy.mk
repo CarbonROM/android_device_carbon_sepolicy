@@ -23,3 +23,15 @@ BOARD_SEPOLICY_DIRS += \
     device/carbon/sepolicy/common/dynamic \
     device/carbon/sepolicy/common/vendor
 endif
+
+ifeq ($(TARGET_INCLUDE_WIFI_EXT),true)
+ifeq (,$(filter sm6150 msmnile trinket, $(TARGET_BOARD_PLATFORM)))
+BOARD_SEPOLICY_DIRS += \
+	device/carbon/sepolicy/wifi-ext/qcom/legacy
+endif
+
+BOARD_SEPOLICY_DIRS += \
+	device/carbon/sepolicy/wifi-ext/common \
+	device/carbon/sepolicy/wifi-ext/google
+endif
+
