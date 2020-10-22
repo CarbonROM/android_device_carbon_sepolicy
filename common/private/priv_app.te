@@ -1,1 +1,2 @@
 allow priv_app ota_package_file:dir create_dir_perms;
+get_prop(priv_app, vendor_security_patch_level_prop)
