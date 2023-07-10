@@ -13,7 +13,7 @@ get_prop(system_server, vendor_persist_camera_prop)
 get_prop(system_server, theme_prop)
 set_prop(system_server, theme_prop)
 
-allow system_server dufont_service:service_manager find;
+allow system_server crfont_service:service_manager find;
 
 # Allow access theme data files
 allow system_server theme_data_file:dir { create_dir_perms relabelto rw_dir_perms };
